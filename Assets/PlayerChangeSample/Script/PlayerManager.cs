@@ -59,8 +59,6 @@ public class PlayerManager : MonoBehaviour {
     // 接触中
     void OnTriggerStay2D(Collider2D obj) {
 
-        if (obj.tag == "damagefloor") lifeSlider.value -= 0.001f;
-
         jumpCount = 0;
     }
 
